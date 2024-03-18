@@ -1,25 +1,24 @@
-# OwlCore.Template [![Version](https://img.shields.io/nuget/v/OwlCore.Template.svg)](https://www.nuget.org/packages/OwlCore.Template)
+# OwlCore.ComponentModel.Settings [![Version](https://img.shields.io/nuget/v/OwlCore.ComponentModel.Settings.svg)](https://www.nuget.org/packages/OwlCore.ComponentModel.Settings)
 
-Description goes here.
-
-Extended description goes here. Tell people why they should use your module, how they can install it, and how they can use it. Documentation takes work!
-
-## 
+Components and models for handling settings within your application
 
 ## Featuring:
-- x
-- y
-- z
+
+- **Fast Access in Memory**: Settings values are stored in memory for quick access.
+- **Data Persistence**: Settings values are persisted in a storage abstraction, ensuring data is not lost between sessions.
+- **Customizable Storage and Serialization**: The constructor of `SettingsBase` allows you to specify the folder where settings are stored and the serializer used to serialize and deserialize settings to and from disk.
+- **Settings Reset**: The `ResetAllSettings` method allows you to reset all settings values to their default.
+- **Property Change Notification**: `SettingsBase` implements `INotifyPropertyChanged`, allowing it to notify subscribers when a property changes.
 
 ## Install
 
-Published releases are available on [NuGet](https://www.nuget.org/packages/OwlCore.Template). To install, run the following command in the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console).
+Published releases are available on [NuGet](https://www.nuget.org/packages/OwlCore.ComponentModel.Settings). To install, run the following command in the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console).
 
-    PM> Install-Package OwlCore.Template
+    PM> Install-Package OwlCore.ComponentModel.Settings
     
 Or using [dotnet](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet)
 
-    > dotnet add package OwlCore.Template
+    > dotnet add package OwlCore.ComponentModel.Settings
 
 ## Usage
 
