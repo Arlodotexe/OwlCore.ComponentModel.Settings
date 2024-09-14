@@ -14,18 +14,25 @@
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 
 		<Author>Arlo Godfrey</Author>
-		<Version>0.1.0</Version>
+		<Version>0.1.1</Version>
 		<Product>OwlCore</Product>
 		<Description></Description>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageIcon>logo.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/Arlodotexe/OwlCore.ComponentModel.Settings</PackageProjectUrl>
 		<PackageReleaseNotes>
+--- 0.1.1 ---
+[Improvements]
+Updated OwlCore.ComponentModel to 0.9.1.
+
+[Fixed]
+Inherited fixes from OwlCore.ComponentModel 0.9.1.
+
 --- 0.1.0 ---
 [Breaking]
 Inherited breaking changes from OwlCore.ComponentModel 0.9.0.
 
-[Fix]
+[Fixed]
 Inherited fixes from OwlCore.ComponentModel 0.9.0 and OwlCore.Storage 0.12.0.
 
 --- 0.0.0 ---
@@ -61,10 +68,10 @@ Initial release of OwlCore.ComponentModel.Settings.
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Diagnostics" Version="8.3.0" />
+		<PackageReference Include="CommunityToolkit.Diagnostics" Version="8.3.1" />
 		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-		<PackageReference Include="OwlCore.ComponentModel" Version="0.9.0" />
+		<PackageReference Include="OwlCore.ComponentModel" Version="0.9.1" />
 		<PackageReference Include="OwlCore.Storage" Version="0.12.0" />
 		<PackageReference Include="PolySharp" Version="1.14.1">
 		  <PrivateAssets>all</PrivateAssets>
